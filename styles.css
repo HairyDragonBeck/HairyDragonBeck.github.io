@@ -1,0 +1,27 @@
+.Document {
+    font-family: "Courier New", Courier, monospace;
+}
+
+#commandText,
+.input {
+    position: absolute;
+    top: 20rem;
+}
+
+.input {
+    left: 6.05rem;
+    top: 21.25rem;
+}
+
+#inputSubmit {
+    left: 16.85rem;
+    color: #00FF00;
+}
+
+#commandText {
+    color: #00FF00;
+}
+
+#body {
+    background-color: black;
+}
