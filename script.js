@@ -1,7 +1,3 @@
-$(document).ready(function() {
-    var audio = document.getElementById('audio');
-    audio.loop = true;
-});
 
 //SWITCH
 var cmd = document.getElementById('inputText');
