@@ -7,3 +7,7 @@ function submitCmd() {
     document.getElementById('TEMP') = cmd;
 
 }
+
+//switch (document.getElementById('')) {
+        
+//        }
