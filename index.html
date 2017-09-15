@@ -15,7 +15,7 @@
 <body id="body">
     <div class="Document">
         <h3 id="commandText">Command &#62 </h3>
-        <form>
+        <form name="cmdInput" onsubmit="return submitCmd()">
             <input type="text" class="input" id="inputText" alt="Enter a command" />
             <input type="submit" class="input" id="inputSubmit" onclick="submitCmd()" />
         </form>
