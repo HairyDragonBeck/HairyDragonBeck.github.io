@@ -1,13 +1,11 @@
-$(document).ready(function() {
-    var audio = document.getElementById('audio');
-    audio.loop = true;
-});
-
 //SWITCH
-var cmd = document.getElementById('inputText');
-var submitCmd = document.getElementById('inputSubmit');
+var cmd = document.forms["cmdInput"]["inputText"].value;
 
 function submitCmd() {
-    document.getElementById('TEMP') = cmd;
-
+    return cmd;
+    switch (cmd) {
+        case test:
+            return cmd;
+            break;
+    }
 }
