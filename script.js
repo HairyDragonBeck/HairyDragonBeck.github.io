@@ -1,5 +1,5 @@
 //SWITCH
-var cmd = document.forms["cmdInput"]["inputText"].value;
+var cmd = document.getElementById('inputText').value;
 var mode = 'normal';
 function submitCmd() {
     return cmd;
