@@ -21,10 +21,12 @@ $(document).ready(function() {
 
         }
         if (mode == 'teacher') {
+            document.getElementById('commandText').style.display = 'hidden' ;
 
 
         }
         if (mode == 'normal') {
+            document.getElementById('commandText').style.display = 'inline' ;
 
         }
 
