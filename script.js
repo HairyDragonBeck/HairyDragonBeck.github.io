@@ -5,6 +5,3 @@ function submitCmd() {
     document.getElementById(commandText) = cmd;
     
 }
-
-    });
-});
