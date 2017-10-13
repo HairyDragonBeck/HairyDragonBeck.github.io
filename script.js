@@ -1,9 +1,14 @@
 //SWITCH
 //var cmd = document.getElementById('inputText').value;
-var cmd = document.forms['commandForm']['formInput'].value;
+
 var mode = 'normal';
 function submitCmd() {
-    document.getElementById('commandText') = cmd;
+    var cmd = document.forms['commandForm']['formInput'].value;
+    if (cmd == "") {
+        alert('' + cmd + ' is not a command!');
+        return false;
+        }
+    document.getElementById('commandText').innerHTML = cmd;
     
 }
 function submitButton() {
