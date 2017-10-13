@@ -16,10 +16,10 @@
 <body id="body">
     <div class="Document">
         <h3 id="commandText">Command &#62 </h3>
-        <form name="commandForm" onsubmit="submitCmd()">
+        <form id="inputForm" name="commandForm" onsubmit="submitCmd()">
 <!-- method="post" action="<?php echo htmlspecialchars($_SERVER[/"PHP_SELF/"]);?>" -->
             <input type="text" class="input" name="formInput" id="inputText" alt="Enter a command">
-            <input type="submit" class="input" id="inputSubmit">
+            <input type="submit" class="input" id="inputSubmit" onclick"submitButton()">
         </form>
         <h1 id="TEMP"></h1>
 
