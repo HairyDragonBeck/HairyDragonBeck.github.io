@@ -3,11 +3,9 @@
 
 var mode = 'normal';
 function submitCmd() {
+    var x = document.getElementById('inputForm');
+    var text = '';
     var cmd = document.forms['commandForm']['formInput'].value;
-    if (cmd == "") {
-        alert('' + cmd + ' is not a command!');
-        return false;
-        }
     document.getElementById('commandText').innerHTML = cmd;
     
 }
