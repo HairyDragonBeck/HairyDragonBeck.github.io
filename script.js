@@ -6,3 +6,6 @@ function submitCmd() {
     document.getElementById('commandText') = cmd;
     
 }
+function submitButton() {
+ document.getElementById('inputForm').submit();   
+}
