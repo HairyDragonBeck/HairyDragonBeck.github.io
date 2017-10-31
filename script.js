@@ -2,8 +2,6 @@
 //var cmd = document.getElementById('inputText').value;
 
 var mode = 'normal';
-function submitCmd() {
-
 window.onkeyup = keyup;
 var inputTextValue;
 function keyup(e) {
@@ -12,11 +10,4 @@ function keyup(e) {
     window.location = "https://HairyDragonBeck.github.io/" + inputTextValue;
   }
 }
-    if(cmd == 'time') {
-        var date = new Date();
-        var dateMin = date.getMinutes();
-    }
-}
-function submitButton() {
- document.getElementById('inputForm').submit();   
-}
+  
