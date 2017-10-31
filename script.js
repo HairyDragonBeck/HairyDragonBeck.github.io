@@ -3,9 +3,15 @@
 
 var mode = 'normal';
 function submitCmd() {
-    var x = document.getElementById('inputForm');
-    //document.getElementById('commandText').innerHTML = text;
-    var cmd = document.forms['commandForm']['formInput'].value;
+
+window.onkeyup = keyup;
+var inputTextValue;
+function keyup(e) {
+  inputTextValue = e.target.value;
+  if (e.keyCode == 13) {
+    window.location = "https://HairyDragonBeck.github.io/" + inputTextValue;
+  }
+}
     if(cmd == 'time') {
         var date = new Date();
         var dateMin = date.getMinutes();
