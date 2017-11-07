@@ -1,13 +1,9 @@
 //SWITCH
 //var cmd = document.getElementById('inputText').value;
-
-var mode = 'normal';
-window.onkeyup = keyup;
-var inputTextValue;
-function keyup(e) {
-  inputTextValue = e.target.value;
-  if (e.keyCode == 13) {
-    window.location = "https://HairyDragonBeck.github.io/" + inputTextValue;
-  }
+var inputTextVar = document.getElementById('inputText');
+var test = document.getElementById('TEMP');
+function submitName() {
+    var inputText  = inputTextVar.value;
+    document.body.innerHTML.replace(test, inputText);
 }
   
