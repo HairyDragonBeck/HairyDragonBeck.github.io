@@ -1,9 +1,11 @@
 //SWITCH
 //var cmd = document.getElementById('inputText').value;
 var inputTextVar = document.getElementById('inputText');
-var test = document.getElementById('TEMP');
-function submitName() {
+function submitCommand() {
     var inputText  = inputTextVar.value;
-    document.body.innerHTML.replace(test, inputText);
+    if (inputText == 'SpinTheBottle') {
+        window.open('https://hairydragonbeck.github.io/SpinTheBottle/spinthebottle.html');
+        }
+    
 }
   
