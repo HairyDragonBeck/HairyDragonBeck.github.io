@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="spinthebottle.css">
+    <title>Spin The Bottle - A friendly game!</title>
+</head>
+
+<body>
+    <form id="inputForm">
+        <p> Insert names here: </p><input id="inputText" type="text" onKeyup="trackChange(this.value)" name="inputText" placeholder="Example">
+        <button id="submitButton" name="submitButton" onclick="submitName()" value="Submit">
+    </form>
+
+    <p id="text"> test </p>
+    <script src="spinthebottle.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js" type="text/javascript"></script>
+</body>
+
+</html>
