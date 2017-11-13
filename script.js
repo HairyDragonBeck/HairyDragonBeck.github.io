@@ -5,7 +5,7 @@ function submitCommand() {
     var inputText  = inputTextVar.value;
     var formInput = document.getElementsByName('formInput').value.toString();
     if (formInput = 'SpinTheBottle') {
-        window.open(location.[1], '_blank');
+        window.open('https://hairydragonbeck.github.io/SpinTheBottle/spinthebottle.html', '_blank');
         }
     
 }
