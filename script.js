@@ -3,7 +3,7 @@
 var inputTextVar = document.getElementById('inputText');
 function submitCommand() {
     var inputText  = inputTextVar.value;
-    var formInput = document.getElementsByName('formInput').value.toString();
+    var formInput = document.getElementsByName('formInput').value;
     if (formInput = 'SpinTheBottle') {
         window.open('https://hairydragonbeck.github.io/SpinTheBottle/spinthebottle.html', '_blank');
         }
