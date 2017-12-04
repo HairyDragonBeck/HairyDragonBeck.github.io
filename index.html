@@ -26,19 +26,21 @@
     </audio>
 </head>
 
-<body id="body">
-    <div class="Document">
-        <h3 id="commandText">Command &#62 </h3>
+<body>
+    <div class="container">
+        <h3 id="commandText">Command &gt;</h3>
         <form id="inputForm" name="commandForm">
             <!-- method="post" action="<?php echo htmlspecialchars($_SERVER[/"PHP_SELF/"]);?>" -->
-            <input type="text" class="input" name="formInput" id="inputText" alt="Enter a command">
-            <input type="submit" class="input" id="inputSubmit">
+            <input type="text" name="cmd" id="inputText" placeholder="Enter a command">
+            <input type="submit" id="inputSubmit">
         </form>
-        <form>
-            <input type="text" name="urlShortener" id="urlShortenerInput">
-        </form>
-        <h1 id="TEMP"></h1>
 
+        <br>
+
+        <pre id="commandOutput"></pre>
+        <!-- <form>
+            <input type="text" name="urlShortener" id="urlShortenerInput">
+        </form> -->
     </div>
 
     <!-- <script src="https://www.googleapis.com/auth/urlshortener" key="AIzaSyClaqZ_83Fnl6Xp5QMq9z1wcBEpBlblYoE"></script> -->
