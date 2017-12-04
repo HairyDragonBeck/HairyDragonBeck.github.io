@@ -24,6 +24,20 @@ input:focus {
     box-shadow: 0px 0px 5px #444;
 }
 
+
+#commandPreview {
+    color: #3399ff;
+}
+
+#commandPreview::before {
+    color: #2255aa;
+    content: '$ ';
+}
+
 pre {
     color: #efefef;
+}
+
+.output-error {
+    color: #ff4433;
 }
