@@ -1,27 +1,29 @@
-.Document {
-    font-family: "Courier New", Courier, monospace;
-}
-
-#commandText,
-.input {
-    position: absolute;
-    top: 20rem;
-}
-
-.input {
-    left: 6.05rem;
-    top: 21.25rem;
-}
-
-#inputSubmit {
-    left: 16.85rem;
+body {
+    background-color: #111;
     color: #00FF00;
+    font-family: "Consolas", "Courier New", Courier, monospace;
 }
 
-#commandText {
-    color: #00FF00;
+.container {
+    margin: 0;
+    padding: 2em;
 }
 
-#body {
-    background-color: black;
+input {
+    padding: 5px 8px;
+
+    border: 1px solid #333;
+    border-radius: 8px;
+
+    background: #222;
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #444;
+}
+
+pre {
+    color: #efefef;
 }
