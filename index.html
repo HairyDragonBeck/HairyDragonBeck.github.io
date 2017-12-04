@@ -5,46 +5,26 @@
     <title>Console</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script src="script.js" type="text/javascript"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://raw.githubusercontent.com/jeresig/jquery.hotkeys/master/jquery.hotkeys.js"></script>
-    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-    <script src="https://code.createjs.com/tweenjs-0.6.2.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-        crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet" />
-
-    <audio id="audio" loop>
-        <source src="Rick Astley - Never Gonna Give You Up" type="audio/mpeg" />
-    </audio>
 </head>
 
 <body>
     <div class="container">
-        <h3 id="commandText">Command &gt;</h3>
+        <h3 id="commandText">Command &gt; </h3>
         <form id="inputForm" name="commandForm">
-            <!-- method="post" action="<?php echo htmlspecialchars($_SERVER[/"PHP_SELF/"]);?>" -->
             <input type="text" name="cmd" id="inputText" placeholder="Enter a command">
             <input type="submit" id="inputSubmit">
         </form>
-
+        
         <br>
-
+        
+        <pre id="commandPreview"></pre>
+        
         <pre id="commandOutput"></pre>
-        <!-- <form>
-            <input type="text" name="urlShortener" id="urlShortenerInput">
-        </form> -->
     </div>
 
-    <!-- <script src="https://www.googleapis.com/auth/urlshortener" key="AIzaSyClaqZ_83Fnl6Xp5QMq9z1wcBEpBlblYoE"></script> -->
-
+    <script src="js/fs.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
 </body>
 
 </html>
