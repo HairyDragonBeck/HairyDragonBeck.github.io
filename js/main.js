@@ -87,7 +87,8 @@ function mapToNumbers(args) {
 [
     // Add apps here:
     'SpinTheBottle',
-    'TypingTest'
+    'TypingTest',
+    'Google Classroom'
 ].forEach(app => registerCommand(app, () => window.location = '/app/' + app));
 
 // Math
