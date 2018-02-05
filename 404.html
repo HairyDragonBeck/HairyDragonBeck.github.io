@@ -3,18 +3,37 @@
 
 <head>
   <title>404 - Page not found</title>
-  <style type="text/css" media="screen">
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
     .container {
-      margin: 10px auto;
+      font-family: 'Roboto', sans-serif;
+      font-size: 2em;
+      margin: 5em auto;
       max-width: 600px;
       text-align: center;
+      vertical-align: center;
+    }
+
+    @media screen and (max-width: 500px) {
+      .container {
+        font-size: 1.2em;
+      }
     }
 
     h1 {
-      margin: 30px 0;
-      font-size: 4em;
-      line-height: 1;
-      letter-spacing: -1px;
+      color: #333;
+      font-weight: 400;
+    }
+
+    p {
+      color: #555;
+      font-weight: 300;
+    }
+
+    a {
+      color: #07f;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -24,9 +43,12 @@
     <h1>404</h1>
 
     <p>
-      <strong>Sorry, I think you typed the website wrong</strong>
+      That page could not be found!
     </p>
-    <p>Try another page </p>
+    <p>
+      Would you like to head back
+      <a href="/">home</a>?
+    </p>
   </div>
 </body>
 
