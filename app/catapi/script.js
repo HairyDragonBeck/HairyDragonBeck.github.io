@@ -10,6 +10,6 @@ function getCat(){
       document.getElementById('image').setAttribute("src", imgLink);
     }
   };
-  httpreq.open('GET', 'http://aws.random.cat/meow', true);
+  httpreq.open('GET', 'http://aws.random.cat/meow');
   httpreq.send();
 }
