@@ -7,7 +7,7 @@ function getCat(){
       var imgLink = response.file;
       //console.log(imgLink);
       document.getElementById('image').setAttribute("src", imgLink);
-      doucment.getElementById('image').style.display = 'block';
+      document.getElementById('image').style.display = 'block';
     }
   };
   httpreq.open('GET', 'http://aws.random.cat/meow');
