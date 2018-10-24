@@ -3,7 +3,7 @@ function getCat(){
   var httpreq = new XMLHttpRequest(); // Initilize the request
   httpreq.onreadystatechange = function() { // Where to put the code
     if (this.readyState == 4 && this.status == 200) { // Make sure there isn't any errors
-      var response = this.responseText;
+      var response = JSON.stringify(this.responseText);
       var imgLink = response.file;
       //console.log(imgLink);
       
