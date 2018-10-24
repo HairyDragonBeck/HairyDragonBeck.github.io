@@ -6,6 +6,6 @@ function getCat(){
       //document.getElementById('image').innerHTML = 
     }
   };
-  httpreq.open('GET', 'http://aws.random.cat/meow, true);
+  httpreq.open('GET', 'http://aws.random.cat/meow', true);
   httpreq.send();
 }
