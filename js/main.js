@@ -89,7 +89,8 @@ function mapToNumbers(args) {
     'SpinTheBottle',
     'TypingTest',
     'GoogleClassroom',
-    'catapi'
+    'catapi',
+    'piglatin'
 ].forEach(app => registerCommand(app, () => window.location = '/app/' + app));
 
 // Math
