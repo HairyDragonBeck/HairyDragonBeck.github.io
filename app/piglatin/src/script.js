@@ -1,7 +1,6 @@
 var input = document.getElementById('input');
 var submit = document.getElementById('submit');
 
-console.log(submit);
 submit.addEventListener('click', function() {
   var inputValue = input.value; // Get input value
   var inputArray = inputValue.split(''); // Makes each character it's own in an array
