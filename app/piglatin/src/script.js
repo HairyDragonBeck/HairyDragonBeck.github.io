@@ -20,3 +20,6 @@ function translateWord(word) {
 	var inputString = inputArray.join('');
   return inputString;
 }
+// Ok, I made all of this...
+// ...And then I found this:
+// str.replace(/(^\w)(.+)/, '$2$1ay');
