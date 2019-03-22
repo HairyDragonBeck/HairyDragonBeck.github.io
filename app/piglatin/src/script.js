@@ -1,3 +1,4 @@
+
 var input = document.getElementById('input');
 var submit = document.getElementById('submit');
 
@@ -9,13 +10,13 @@ submit.addEventListener('click', function() {
   inputArray.push('a'); // Adds a to last letter
   inputArray.push('y'); // Adds y to last letter
 
-  console.log(inputArray);
+	var inputString = inputArray.join('');
+  console.log(inputArray.join(''));
   
-  for (var i = 0; i < inputArray.length; i++) {
-  	var inputJoined = inputArray[i];
-    document.getElementById('e').innerHTML = inputJoined;
+ /* for (var i = 0; i < inputArray.length; i++) {
+  	//var inputJoined = inputArray[i];
+ //   document.getElementById('e').innerHTML = inputJoined;
     //console.log(inputJoined);
-  }
-  //inputArray.join("");
-  document.getElementById('egg').innerHTML = inputArray;
+  } */
+  document.getElementById('egg').innerHTML = inputString;
 });
