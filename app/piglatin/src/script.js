@@ -25,4 +25,4 @@ function translateWord(word) {
 // str.replace(/(^\w)(.+)/, '$2$1ay');
 
 // For multiword support, us the one bellow
-// return str.replace(/\b(\w)(\w+)\b/g, '$2$1ay'); 
+// str.replace(/\b(\w)(\w+)\b/g, '$2$1ay'); 
