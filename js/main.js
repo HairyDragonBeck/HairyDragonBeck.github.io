@@ -101,7 +101,7 @@ registerCommand(['subtract', '-'], args => {
     return numbers.reduce((mem, next) => mem - next, first);
 });
 registerCommand(['multiply', '*'], args => mapToNumbers(args).reduce((mem, next) => mem * next, 1));
-const fibonacci = n => Array.join({length:n}).reduce((acc, val, i) => acc.concat(i > 1 ? acc[i - 1] + acc[i - 2] : i), []);
+const fibonacci = n => Array.from({length:n}).reduce((acc, val, i) => acc.concat(i > 1 ? acc[i - 1] + acc[i - 2] : i), []);
 registerCommand('fibonacci', args => fibonacci(mapToNumbers(args)));
 
 // Filesystem
