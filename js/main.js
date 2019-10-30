@@ -90,7 +90,8 @@ function mapToNumbers(args) {
     'TypingTest',
     'GoogleClassroom',
     'catapi',
-    'piglatin'
+    'piglatin',
+    'english-brain'
 ].forEach(app => registerCommand(app, () => window.location = '/app/' + app));
 
 // Math
